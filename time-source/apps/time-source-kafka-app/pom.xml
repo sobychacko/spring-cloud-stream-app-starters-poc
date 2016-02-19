@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>time-source-kafka-app</artifactId>
+	<packaging>jar</packaging>
+	<name>time-source-kafka-app</name>
+	<description>Spring Cloud Stream time-source kafka app</description>
+
+	<parent>
+		<groupId>org.springframework.cloud.stream.app</groupId>
+		<artifactId>spring-cloud-stream-time-source-apps</artifactId>
+		<version>1.0.0.BUILD-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+		<start-class>org.springframework.cloud.stream.module.time.TimeSourceKafkaApplication</start-class>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud.stream.app</groupId>
+			<artifactId>time-source-core</artifactId>
+			<version>1.0.0.BUILD-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-stream-binder-kafka</artifactId>
+		</dependency>
+	</dependencies>
+</project>
