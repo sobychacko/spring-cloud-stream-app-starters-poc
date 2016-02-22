@@ -27,6 +27,7 @@
 
 	<modules>
 		<module>time-source</module>
+		<module>log-sink</module>
 	</modules>
 
 	<dependencyManagement>
