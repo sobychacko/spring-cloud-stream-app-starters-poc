@@ -7,7 +7,7 @@
 
     <parent>
         <groupId>org.springframework.cloud.stream.app</groupId>
-        <artifactId>spring-cloud-stream-time-source</artifactId>
+        <artifactId>time-source</artifactId>
         <version>1.0.0.BUILD-SNAPSHOT</version>
     </parent>
 

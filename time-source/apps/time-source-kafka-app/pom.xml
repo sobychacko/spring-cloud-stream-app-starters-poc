@@ -14,13 +14,13 @@
 	</parent>
 
 	<properties>
-		<start-class>org.springframework.cloud.stream.module.time.TimeSourceKafkaApplication</start-class>
+		<start-class>org.springframework.could.stream.app.time.TimeSourceKafkaApplication</start-class>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud.stream.app</groupId>
-			<artifactId>time-source-core</artifactId>
+			<artifactId>time-source-spring-boot-starter</artifactId>
 			<version>1.0.0.BUILD-SNAPSHOT</version>
 		</dependency>
 		<dependency>

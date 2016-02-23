@@ -14,13 +14,13 @@
     </parent>
 
     <properties>
-        <start-class>org.springframework.cloud.stream.module.org.springframework.cloud.stream.module.log.LogSinkKafkaApplication</start-class>
+        <start-class>org.springframework.cloud.stream.app.org.springframework.cloud.stream.app.log.LogSinkKafkaApplication</start-class>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud.stream.app</groupId>
-            <artifactId>log-sink-core</artifactId>
+            <artifactId>log-sink-spring-boot-starter</artifactId>
             <version>1.0.0.BUILD-SNAPSHOT</version>
         </dependency>
         <dependency>
