@@ -12,7 +12,6 @@
     </parent>
 
     <modules>
-        <module>time-source-spring-boot-starter</module>
-        <module>apps</module>
+        <module>spring-cloud-starter-stream-source-time</module>
     </modules>
 </project>

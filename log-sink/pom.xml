@@ -13,6 +13,5 @@
 
     <modules>
         <module>log-sink-spring-boot-starter</module>
-        <module>apps</module>
     </modules>
 </project>
