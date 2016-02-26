@@ -25,7 +25,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author Gary Russell
  * @author David Turanski
  *
- * @deprecated in favor of {@link org.springframework.cloud.stream.app.trigger.TriggerProperties#dateFormat}
+ * @deprecated in favor of {@link org.springframework.cloud.stream.time.app.common.trigger.TriggerProperties#dateFormat}
  */
 @Deprecated
 @ConfigurationProperties

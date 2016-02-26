@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.springframework.cloud.stream.app.trigger;
+package org.springframework.cloud.stream.time.app.common.trigger;
 
 import java.util.ArrayList;
 import java.util.Collections;

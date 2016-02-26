@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.cloud.stream.app.trigger;
+package org.springframework.cloud.stream.time.app.common.trigger;
 
 /**
  * @author Ilayaperumal Gopinathan
